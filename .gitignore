@@ -1,0 +1,71 @@
+# Arduino IDE
+*.o
+*.a
+*.so
+*.lib
+*.dll
+*.exe
+*.out
+*.elf
+*.hex
+*.eep
+*.bin
+build/
+dist/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+.vscode-iot/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# OS files
+.DS_Store
+Thumbs.db
+.Thumbs.db
+.env.local
+.env.*.local
+
+# Node (if using node-based tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (if using CircuitPython or MicroPython)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+*.bak
+*.backup
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+.classpath
+.project
+.settings/
+*.sublime-workspace
+
+# Arduino specific
+Arduino/libraries/
+*.ino.bak
